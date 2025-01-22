@@ -3,7 +3,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-./application.properties
+**/application.properties
 
 ### STS ###
 .apt_generated
@@ -48,4 +48,4 @@ dist-ssr
 *.local
 
 # Etc.
-.csv-data/*
+csv-data/
