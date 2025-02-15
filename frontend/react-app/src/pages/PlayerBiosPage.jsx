@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ConferenceDropdown from "../components/ConferenceDropdown";
 import TeamDropdown from "../components/TeamDropdown";
 import PlayerBioList from "../components/PlayerBioList";
-import { fetchTeamsByConference, fetchPlayersByTeam } from "../ApiService";
+import { fetchTeamsByConference, fetchPlayersByTeam } from "../HttpClient";
 
 const PlayerBiosPage = () => {
     

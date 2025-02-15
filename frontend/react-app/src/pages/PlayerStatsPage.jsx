@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PlayerStatsList from '../components/PlayerStatsList.jsx'
 import TeamDropdown from '../components/TeamDropdown.jsx';
 import ConferenceDropdown from '../components/ConferenceDropdown.jsx';
-import { fetchStatlinesByPlayer, fetchStatlinesByTeam, fetchPlayersByTeam, fetchTeamsByConference } from '../ApiService';
+import { fetchStatlinesByPlayer, fetchStatlinesByTeam, fetchPlayersByTeam, fetchTeamsByConference } from '../HttpClient.js';
 
 const PlayerStatsPage = () => {
 

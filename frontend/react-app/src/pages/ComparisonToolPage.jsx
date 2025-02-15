@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SearchResultsList from '../components/SearchResultsList';
-import { fetchStatlinesByPlayer } from '../ApiService';
+import { fetchStatlinesByPlayer } from '../HttpClient';
 import PassingCharts from '../components/comparison charts/PassingCharts';
 import RushingCharts from '../components/comparison charts/RushingCharts'
 import ReceivingCharts from '../components/comparison charts/ReceivingCharts';
