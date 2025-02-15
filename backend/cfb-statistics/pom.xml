@@ -65,6 +65,8 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+
+		<finalName>cfb-stats-backend</finalName>
 	</build>
 
 </project>
